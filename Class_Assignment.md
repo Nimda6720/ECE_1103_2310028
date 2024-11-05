@@ -25,7 +25,8 @@ error.
 </div>
 
 ## **Code :**
-```#include<stdio.h>
+```
+#include<stdio.h>
 int main()
 {
 float amount,balance=6456.00;
