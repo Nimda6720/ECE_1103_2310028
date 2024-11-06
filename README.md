@@ -47,7 +47,7 @@
 
 | Lab No. | Title | Link |
 | :---: | :---: | :---: |
-| 01 |                    Class Assignemt                   | [Lab_01]( link )
+| 01 |                    Class Assignemt                   | [Lab_01]( https://github.com/Nimda6720/ECE_1103_2310028/blob/main/Class_Assignment.md )
 
 
 </div>
