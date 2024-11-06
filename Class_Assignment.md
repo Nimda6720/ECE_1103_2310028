@@ -95,3 +95,87 @@ return 0;
   <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/c2qn3jy/Screenshot-2024-11-06-000217.png" alt="Screenshot-2024-11-06-000217" border="0"></a>
 </p>
 
+-----------------------------------------------------
+## **Experiment No : 02**
+
+## **Experiment Name : Guess the Secret Number with LimitedAttempts
+ Create a number guessing game where the program selects a random secret number
+ between 1 and 50. The user has to guess the number, and they get unlimited attempts until
+ they guess correctly. However, if they exceed 10 attempts, the game stops, and a message
+ indicates that they’ve run out of attempts.
+ Use a while loop to keep asking the user for guesses, and use break when:
+ 1.The user guesses correctly.
+ 2.The attempt limit (10 guesses) is reached**
+
+## **Submission Date : 6th November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the Mathmeatical Operation :** Basically making a guessing system.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```
+#include<stdio.h>
+int main()
+{
+    printf("Welcome to the guessing game\n");
+    printf("You will have 10 attempts\n");
+    printf("Select a random number between \"1-50\" :\t");
+    int number,i=0,s=45;
+    int comparison;
+    while(i<10)
+    {
+        i++;
+        scanf("%d",&number);
+        if (number>s)
+        {
+            comparison =1;
+        }
+        else if (number<s)
+        {
+            comparison =2;
+        }
+        else if  (number=s)
+        {
+            comparison =3;
+        }
+       switch (comparison) //just wanted to practice switch. That's why I used it here.
+       {
+       case 1:
+        printf("Try lower\n");
+        break;
+       case 2:
+       printf("Try Higher\n");
+       break;
+       case 3:
+       printf("\"You are goddamn right\"- Walter White AKA Heisenberg\n");
+       return 0;
+       default:
+       printf("Try something between \'1-50\'");
+        break;
+       }
+    if (i>=10)
+        {
+            printf("You have ran out of attempts");
+        }
+    }
+    return 0;
+}
+
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://ibb.co.com/nDGcxfT"><img src="https://i.ibb.co.com/7GfWsVH/sdsaf.png" alt="sdsaf" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/j8XwpqY/Screenshot-2024-11-06-184638.png" alt="Screenshot-2024-11-06-184638" border="0"></a>
+</p>
+
