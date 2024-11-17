@@ -178,4 +178,56 @@ int main()
 <a href="https://ibb.co.com/nDGcxfT"><img src="https://i.ibb.co.com/7GfWsVH/sdsaf.png" alt="sdsaf" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/j8XwpqY/Screenshot-2024-11-06-184638.png" alt="Screenshot-2024-11-06-184638" border="0"></a>
 </p>
+----------------------------
 
+
+## **Experiment No : 03**
+
+## **Experiment Name : Check if an array has number 2 in it or not**
+
+## **Submission Date : 17th November 2024**
+
+----------
+
+## **Theory :**
+<div align="justify">
+
+- **Declaring Integer Variables :** Declare integer variables to store integer values. This reserves memory locations for these integers.<br>
+- **Taking Input :** Using the scanf function, the program can receive input values from the user. These values are stored in the previously declared integer variables.<br>
+- **Performing the Mathmeatical Operation :** Just checking is an array has "2" in it or not.<br>
+- **Displaying the Result :** The result of the addition can be displayed using the printf function.  <br>
+
+</div>
+
+## **Code :**
+```
+#include<stdio.h>
+int main()
+{
+    int array [8];
+    for(int i=1; i<8; i++)
+    {
+        printf("Enter your %d value\t",i);
+        scanf("%d", &array[i]);
+    }
+    for (int j=1; j<sizeof(array)/sizeof(array[0]); ++j)
+    {
+        if(array[j]== 2)
+        {
+            printf("Number 2 is found");
+            break;
+        }
+        else
+        {
+            continue;
+        }
+    }
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/W6zh9Pr/image.png" alt="image" border="0"></a>
+</p>
