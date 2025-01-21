@@ -292,3 +292,58 @@ int main()
 <p align="center">
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/mCmyMLf/image.png" alt="image" border="0"></a>
 </p>
+
+
+-----------------
+## **Experiment No : 04**
+
+## **Experiment Name : Write a c program using structure which can take information for 10 person(e.g., name, roll, reg)**
+
+## **Submission Date : 18th January 2025**
+
+----------
+
+
+## **Code :**
+```
+#include <stdio.h>
+
+struct Students {
+    int roll;
+    char name[100];
+    float marks;
+    char grade;
+};
+
+int main() {
+    struct Students s1 = {2300001, "Siam", 35.4, 'D'};
+    struct Students s2 = {2300002, "Twaha", 28.5, 'F'};
+    struct Students s3 = {2300003, "Fahad", 00.00, 'F'};
+    struct Students s4 = {2300004, "Mushfiq", 25.5, 'F'};
+    struct Students s5 = {2300005, "Shahriar", 90.0, 'A'};
+    struct Students s6 = {2300006, "Sadat", 67.0, 'B'};
+    struct Students s7 = {2300007, "Taki", 45.0, 'D'};
+    struct Students s8 = {2300008, "Adiat", 88.0, 'A'};
+    struct Students s9 = {2300009, "Mahi", 99.99, 'A'};
+    struct Students s10 = {2300010, "Nahid", 60.0, 'C'};
+
+    struct Students students[] = {s1, s2, s3, s4, s5, s6, s7, s8, s9, s10};
+    int num_students = sizeof(students) / sizeof(students[0]);
+
+    for (int i = 0; i < num_students; i++) {
+        printf("Student %d:\n", i + 1);
+        printf("Roll Number: %d\n", students[i].roll);
+        printf("Name: %s\n", students[i].name);
+        printf("Marks: %.2f\n", students[i].marks);
+        printf("Grade: %c\n", students[i].grade);
+        printf("Pass: %s\n", students[i].marks >= 40.0 ? "Yes" : "No");
+    }
+    return 0;
+}
+
+```
+
+## **Output :**
+<p align="center">
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/mCmyMLf/image.png" alt="image" border="0"></a>
+</p>
