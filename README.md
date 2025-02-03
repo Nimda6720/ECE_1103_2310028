@@ -45,9 +45,13 @@
   
 ## INDEX:
 
-| Lab No. | Title | Link |
-| :---: | :---: | :---: |
-| 01 |                    Class Assignemt                   | [Assignment]( https://github.com/Nimda6720/ECE_1103_2310028/blob/main/Class_Assignment.md )
+| Assignment No. | Title | Link | Remark |
+| :---: | :---: | :---: | :---: |
+| 01 |                    Create a simple banking system in C using a switch statement.                   | [Assignment 01](https://github.com/Nimda6720/ECE_1103_2310028/blob/main/1.md)  |  |
+| 02 |                    Guess the Secret Number with Limited Attempts.                   | [Assignment 02](https://github.com/Nimda6720/ECE_1103_2310028/blob/main/2.md)  |  |
+| 03 |                    Finding a Value in an Array.                   | [Assignment 03](https://github.com/Nimda6720/ECE_1103_2310028/blob/main/3.md)  |  |
+| 04 |                  Computing Interest                  | [Assignment 04](https://github.com/Nimda6720/ECE_1103_2310028/blob/main/4.md)  |  |
+| 05 |                   Structure Operations                   | [Assignment 05](https://github.com/Nimda6720/ECE_1103_2310028/blob/main/5.md)  |  |
 
 
 </div>
