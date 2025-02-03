@@ -90,7 +90,7 @@ return 0;
 
 ## **Output :**
 <p align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/pXSXy4W/Screenshot-2024-11-05-235914.png" alt="Screenshot-2024-11-05-235914" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>image uploader</a><br />
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/pXSXy4W/Screenshot-2024-11-05-235914.png" alt="Screenshot-2024-11-05-235914" border="0"></a><br />
   <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/9sx083f/Screenshot-2024-11-06-000021.png" alt="Screenshot-2024-11-06-000021" border="0"></a>
   <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/c2qn3jy/Screenshot-2024-11-06-000217.png" alt="Screenshot-2024-11-06-000217" border="0"></a>
 </p>
@@ -178,6 +178,8 @@ int main()
 <a href="https://ibb.co.com/nDGcxfT"><img src="https://i.ibb.co.com/7GfWsVH/sdsaf.png" alt="sdsaf" border="0"></a>
 <a href="https://imgbb.com/"><img src="https://i.ibb.co.com/j8XwpqY/Screenshot-2024-11-06-184638.png" alt="Screenshot-2024-11-06-184638" border="0"></a>
 </p>
+
+
 ----------------------------
 
 
@@ -345,5 +347,5 @@ int main() {
 
 ## **Output :**
 <p align="center">
-<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/mCmyMLf/image.png" alt="image" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co.com/HDjVF1qx/image.png" alt="image" border="0"></a>
 </p>
